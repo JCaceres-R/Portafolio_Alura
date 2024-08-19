@@ -124,9 +124,8 @@ span{
     font-weight: 400;
 }
 
-.imagen{
-    width: 50%;
-    
+.presentacion_imagen{
+    width: auto;
 }
 
 @media (max-width: 1200px) {
@@ -134,7 +133,10 @@ span{
     .presentacion_imagen{
         display: flex;
         justify-content: center;
+    }
 
+    .imagen{
+        width:50%;
     }
     .header_menu{
         gap: 80px;
